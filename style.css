@@ -233,7 +233,7 @@ footer {
   color: #fff;
 }
 
-.konsultacje-main {
+.content-main {
   width: 100%;
   height: 30%;
   background-color: #333;
@@ -241,33 +241,97 @@ footer {
   text-align: center;
 }
 
-.konsultacje-main h1 {
+.content-main h1 {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.konsultacje-main h2 {
+.content-main h2 {
   font-weight: 300;
 }
 
-.konsultacje-wrapper {
+.content-wrapper {
   width: 900px;
   margin: 0 auto;
   padding: 30px;
 }
 
-.konsultacje-more-wrapper {
+.content-more-wrapper {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-.konsultacje-more-wrapper img {
+.content-more-wrapper img {
   width: 50%;
+  height: 300px;
 }
 
-.konsultacje-text {
+.content-text {
   width: 50%;
   font-size: 18px;
   line-height: 30px;
   padding-left: 15px;
+}
+
+.obliczanie-main {
+  background-image: url("img/obliczanie_mountains.png");
+  position: relative;
+  /* top: 60px; */
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  line-height: 40px;
+}
+
+.obliczanie-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.content-text ul {
+  margin: 10px;
+}
+.content-text {
+  padding-left: 20px;
+}
+
+.space {
+  height: 40px;
+}
+
+.obliczanie-text-3 {
+  margin-top: 80px;
+}
+
+.certyfikacja-container {
+  min-height: 100vh;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* .blog-container {
+  min-height: 100vh;
+  font-size: 18px;
+  line-height: 40px;
+} */
+
+.certyfikacja-main,
+.blog-container {
+  position: relative;
+  top: 60px;
+}
+
+.certyfikacja-main div {
+  margin-left: 20px;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
 }
