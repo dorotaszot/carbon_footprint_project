@@ -55,10 +55,15 @@ body {
 .nav-item a {
   cursor: pointer;
   padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  border: #333 1px solid;
 }
 
 .nav-item a:hover {
   color: #999;
+  background-color: #333;
+  border: 1px solid #333;
 }
 
 .nav-logo {
@@ -70,7 +75,7 @@ body {
   color: #f01313;
 }
 
-.current {
+a.current {
   border: #fff 1px solid;
 }
 
@@ -158,7 +163,7 @@ body {
   outline: none;
 }
 
-a {
+button > a {
   color: #fff;
   text-decoration: none;
   /* width: 100%;
@@ -188,10 +193,11 @@ button {
   line-height: 30px;
   font-size: 18px;
   width: 900px;
-  border-top: solid #333 1px;
+  /* border-bottom: solid #333 1px; */
   padding-top: 40px;
   /* display: flex;
   flex-direction: column; */
+  padding-top: 100px;
 }
 
 .about img {
@@ -222,7 +228,46 @@ footer {
   background-color: #333;
   width: 100%;
   height: 60px;
-  color: #fff;
   text-align: center;
   line-height: 60px;
+  color: #fff;
+}
+
+.konsultacje-main {
+  width: 100%;
+  height: 30%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.konsultacje-main h1 {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.konsultacje-main h2 {
+  font-weight: 300;
+}
+
+.konsultacje-wrapper {
+  width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.konsultacje-more-wrapper {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.konsultacje-more-wrapper img {
+  width: 50%;
+}
+
+.konsultacje-text {
+  width: 50%;
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 15px;
 }
