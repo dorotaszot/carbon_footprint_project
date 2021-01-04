@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   color: #333;
@@ -12,6 +16,14 @@ body {
 .py-sm {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.my-sm {
+  margin-top: 20px;
+}
+
+.my-md {
+  margin-top: 40px;
 }
 
 .my-lg {
@@ -58,10 +70,14 @@ body {
   color: #f01313;
 }
 
+.current {
+  border: #fff 1px solid;
+}
+
 .main {
   background-image: url("img/header.jpg");
   position: relative;
-  top: 60px;
+  /* top: 60px; */
   position: relative;
   background-position: center;
   background-size: cover;
@@ -91,6 +107,11 @@ body {
   content: "✓";
 }
 
+.main-wrapper {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 100%;
+}
 .main-container {
   /* background-color: rgba(255, 255, 255, 0.2); */
   display: flex;
@@ -99,14 +120,14 @@ body {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: -100px;
+  position: relative;
+  top: -90px;
 }
 
 .container {
   margin-top: 100px;
   max-width: 1000px;
-  margin: 100px auto;
+  margin: 0 auto;
 }
 
 .home-more-wrapper {
@@ -126,19 +147,82 @@ body {
   font-weight: 800;
 }
 
-button {
-  display: block;
+.btn {
+  /* display: block; */
   color: #fff;
   background-color: #333;
   padding: 10px 30px;
   cursor: pointer;
   margin-top: 10px;
   border: solid 1px #333;
+  outline: none;
 }
 
-button:hover {
+a {
+  color: #fff;
+  text-decoration: none;
+  /* width: 100%;
+  height: 100%; */
+  padding: 10px 30px;
+}
+
+/* button:hover, */
+a:hover {
   background-color: #fff;
   color: #333;
   transition: 0.4s all;
   border: solid 1px #f01313;
+}
+
+button {
+  border: none;
+}
+
+.rounded {
+  border-radius: 5%;
+}
+
+.about {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  width: 900px;
+  border-top: solid #333 1px;
+  padding-top: 40px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.about img {
+  margin: 30px;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}
+
+.about p {
+  margin-bottom: 30px;
+}
+
+.about a {
+  margin-bottom: 30px;
+  color: #333;
+  padding: 20px;
+}
+
+.about a:hover {
+  color: #f01313;
+  border: none;
+  background-color: transparent;
+}
+
+footer {
+  background-color: #333;
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
 }
