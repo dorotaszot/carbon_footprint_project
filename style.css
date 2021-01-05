@@ -376,6 +376,13 @@ textarea {
   margin: 20px;
 }
 
+@media (max-width: 1030px) {
+  .home-more-wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 @media (max-width: 935px) {
   .rounded {
     width: 30%;
@@ -391,5 +398,18 @@ textarea {
   }
   .about {
     width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  #expert-btn {
+    width: 400px;
+    display: block;
+    background-color: transparent;
+    margin-left: 0;
+  }
+
+  #expert-btn a.btn {
+    width: 600px;
   }
 }
