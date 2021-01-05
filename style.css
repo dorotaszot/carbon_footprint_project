@@ -335,3 +335,61 @@ footer {
 .margin-bottom {
   margin-bottom: 20px;
 }
+
+/* .kontakt {
+  height: 100%;
+} */
+
+.form-group {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-wrapper {
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  top: 80px;
+  height: 100vh;
+}
+
+/* .contact-form {
+  margin-right: 30px;
+} */
+
+.contact-form input {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+textarea {
+}
+.contact-info {
+  text-align: center;
+}
+
+.contact-info div {
+  margin: 20px;
+}
+
+@media (max-width: 935px) {
+  .rounded {
+    width: 30%;
+  }
+  .konsultacje-indywidualne h1 {
+    font-size: 24px;
+  }
+  .konsultacje-indywidualne h2 {
+    font-size: 18px;
+  }
+  .konsultacje-indywidualne {
+    width: 100%;
+  }
+  .about {
+    width: 100%;
+  }
+}
